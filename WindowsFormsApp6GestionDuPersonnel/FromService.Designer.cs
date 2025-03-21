@@ -121,6 +121,7 @@
             this.btNouveauService.TabIndex = 7;
             this.btNouveauService.Text = "Nouveau";
             this.btNouveauService.UseVisualStyleBackColor = true;
+            this.btNouveauService.Click += new System.EventHandler(this.btNouveauService_Click);
             // 
             // btModifierService
             // 
@@ -131,6 +132,7 @@
             this.btModifierService.TabIndex = 8;
             this.btModifierService.Text = "Modifier";
             this.btModifierService.UseVisualStyleBackColor = true;
+            this.btModifierService.Click += new System.EventHandler(this.btModifierService_Click);
             // 
             // btEnregistrerService
             // 
@@ -141,6 +143,7 @@
             this.btEnregistrerService.TabIndex = 9;
             this.btEnregistrerService.Text = "Enregistrer";
             this.btEnregistrerService.UseVisualStyleBackColor = true;
+            this.btEnregistrerService.Click += new System.EventHandler(this.btEnregistrerService_Click);
             // 
             // btSupprimerService
             // 
@@ -151,6 +154,7 @@
             this.btSupprimerService.TabIndex = 10;
             this.btSupprimerService.Text = "Supprimer";
             this.btSupprimerService.UseVisualStyleBackColor = true;
+            this.btSupprimerService.Click += new System.EventHandler(this.btSupprimerService_Click);
             // 
             // rbTypeAdministratif
             // 
