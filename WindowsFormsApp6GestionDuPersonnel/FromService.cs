@@ -17,6 +17,7 @@ namespace WindowsFormsApp6GestionDuPersonnel
 {
     public partial class fmService : Form
     {
+       
         public fmService()
         {
             InitializeComponent();
@@ -354,6 +355,16 @@ namespace WindowsFormsApp6GestionDuPersonnel
             
 
         }
+        
 
+        //  Pour fermer la page FromService sans le quitter , afficher directement le menu de FromMenu
+        private void fmService_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+                FmMenu fmm = new FmMenu();
+                fmm.Show();
+
+            
+        }
     }
 }

@@ -33,6 +33,13 @@ namespace WindowsFormsApp6GestionDuPersonnel
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
            // Etape fais dans la premère parti Application.Run(new fmService());
+
+
+            //Ici excecution du changement de formulaire au demarrage de l'application pagessage de FmService à Fm_Menu
+            FmMenu fmMenu = new FmMenu();
+            fmMenu.Show();
+
+            Application.Run();
         }
     }
 }

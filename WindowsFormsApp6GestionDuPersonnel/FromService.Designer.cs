@@ -240,6 +240,7 @@
             this.Controls.Add(this.tb_CodeService);
             this.Name = "fmService";
             this.Text = "Service";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fmService_FormClosed);
             this.Load += new System.EventHandler(this.fmService_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -53,6 +53,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAbscence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbscence.Designer.cs">
+      <DependentUpon>FormAbscence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmploye.Designer.cs">
+      <DependentUpon>FormEmploye.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +80,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
+    <EmbeddedResource Include="FormAbscence.resx">
+      <DependentUpon>FormAbscence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmploye.resx">
+      <DependentUpon>FormEmploye.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>

@@ -44,6 +44,7 @@
             this.btMenuServices.TabIndex = 0;
             this.btMenuServices.Text = "Services";
             this.btMenuServices.UseVisualStyleBackColor = true;
+            this.btMenuServices.Click += new System.EventHandler(this.btMenuServices_Click);
             // 
             // btMenuEmploiyes
             // 
@@ -53,6 +54,7 @@
             this.btMenuEmploiyes.TabIndex = 1;
             this.btMenuEmploiyes.Text = "Emploiyes";
             this.btMenuEmploiyes.UseVisualStyleBackColor = true;
+            this.btMenuEmploiyes.Click += new System.EventHandler(this.btMenuEmploiyes_Click);
             // 
             // btMenuAbscences
             // 
@@ -97,7 +99,8 @@
             this.Controls.Add(this.btMenuEmploiyes);
             this.Controls.Add(this.btMenuServices);
             this.Name = "FmMenu";
-            this.Text = "FormMenu";
+            this.Text = "Menu";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FmMenu_FormClosed);
             this.Load += new System.EventHandler(this.FormMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMenu)).EndInit();
             this.ResumeLayout(false);
