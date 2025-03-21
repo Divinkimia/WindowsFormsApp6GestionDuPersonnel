@@ -32,7 +32,7 @@ namespace WindowsFormsApp6GestionDuPersonnel
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmService());
+           // Etape fais dans la premère parti Application.Run(new fmService());
         }
     }
 }

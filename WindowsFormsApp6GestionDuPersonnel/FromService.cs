@@ -183,6 +183,7 @@ namespace WindowsFormsApp6GestionDuPersonnel
             btEnregistrerService.Enabled = true;
             btSupprimerService.Enabled = true;
 
+
             rbTypeAdministratif.Enabled = true;
             rbTypeProductif.Enabled = true;
 
@@ -196,6 +197,16 @@ namespace WindowsFormsApp6GestionDuPersonnel
 
             tb_BudgetService.ReadOnly = false; // pour faire passer en écriture ( il parmet maintenant de saisir ) ref not de  : private void listViewServices_Click
             tb_BudgetService.ForeColor = Color.Black;
+            
+
+
+            rbTypeAdministratif.Enabled = true;
+            rbTypeProductif .Enabled = true;
+
+            // Pour effacer directement une fois que j'ai ajouter 
+            tb_CodeService.Text = ""; 
+            tb_BudgetService.Text = "";
+            tb_DesignationService.Text = "";
             
 
         }
@@ -213,6 +224,7 @@ namespace WindowsFormsApp6GestionDuPersonnel
             rbTypeProductif.Enabled = true;
             rbTypeAdministratif.Enabled = true;
         }
+
 
         private void btSupprimerService_Click(object sender, EventArgs e)
         {
@@ -342,5 +354,6 @@ namespace WindowsFormsApp6GestionDuPersonnel
             
 
         }
+
     }
 }
