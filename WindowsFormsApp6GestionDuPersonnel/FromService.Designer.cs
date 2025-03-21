@@ -121,6 +121,7 @@
             this.btNouveauService.TabIndex = 7;
             this.btNouveauService.Text = "Nouveau";
             this.btNouveauService.UseVisualStyleBackColor = true;
+            this.btNouveauService.Click += new System.EventHandler(this.btNouveauService_Click);
             // 
             // btModifierService
             // 
@@ -131,6 +132,7 @@
             this.btModifierService.TabIndex = 8;
             this.btModifierService.Text = "Modifier";
             this.btModifierService.UseVisualStyleBackColor = true;
+            this.btModifierService.Click += new System.EventHandler(this.btModifierService_Click);
             // 
             // btEnregistrerService
             // 
