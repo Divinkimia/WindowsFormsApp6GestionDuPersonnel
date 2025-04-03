@@ -29,6 +29,8 @@ namespace WindowsFormsApp6GestionDuPersonnel
             InitialisationContoles();
         }
 
+
+
         private void DataLoad()
         {
             listViewServices.Items.Clear(); // Permet d'effacer les itemes avant la recharge de recharger les données
@@ -171,7 +173,7 @@ namespace WindowsFormsApp6GestionDuPersonnel
        
         }
 
-        }
+                 }
 
         private void listViewServices_SelectedIndexChanged(object sender, EventArgs e)
         {

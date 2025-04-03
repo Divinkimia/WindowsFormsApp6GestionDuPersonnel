@@ -52,10 +52,12 @@ namespace WindowsFormsApp6GestionDuPersonnel
 
             
         }
-
-        private void btMenuEmploiyes_Click(object sender, EventArgs e)
+        private void btMenuEmploiyes_Click(object sender, EventArgs e) // Permet de basculer d'une page à une autre comme Service
         {
-
+            flagQuitter = false;
+            fmEmploye fms = new fmEmploye();
+            fms.Show();
+            Close();
         }
     }
 }

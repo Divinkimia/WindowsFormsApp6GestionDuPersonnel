@@ -38,7 +38,7 @@
             // 
             // btMenuServices
             // 
-            this.btMenuServices.Location = new System.Drawing.Point(509, 86);
+            this.btMenuServices.Location = new System.Drawing.Point(500, 134);
             this.btMenuServices.Name = "btMenuServices";
             this.btMenuServices.Size = new System.Drawing.Size(110, 45);
             this.btMenuServices.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // btMenuEmploiyes
             // 
-            this.btMenuEmploiyes.Location = new System.Drawing.Point(509, 157);
+            this.btMenuEmploiyes.Location = new System.Drawing.Point(500, 205);
             this.btMenuEmploiyes.Name = "btMenuEmploiyes";
             this.btMenuEmploiyes.Size = new System.Drawing.Size(110, 46);
             this.btMenuEmploiyes.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btMenuAbscences
             // 
-            this.btMenuAbscences.Location = new System.Drawing.Point(509, 231);
+            this.btMenuAbscences.Location = new System.Drawing.Point(500, 279);
             this.btMenuAbscences.Name = "btMenuAbscences";
             this.btMenuAbscences.Size = new System.Drawing.Size(110, 36);
             this.btMenuAbscences.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.picBoxMenu.Image = global::WindowsFormsApp6GestionDuPersonnel.Properties.Resources.rh;
             this.picBoxMenu.Location = new System.Drawing.Point(82, 101);
             this.picBoxMenu.Name = "picBoxMenu";
-            this.picBoxMenu.Size = new System.Drawing.Size(339, 181);
+            this.picBoxMenu.Size = new System.Drawing.Size(339, 239);
             this.picBoxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBoxMenu.TabIndex = 4;
             this.picBoxMenu.TabStop = false;
